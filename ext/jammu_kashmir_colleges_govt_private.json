@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Model Institute of Engineering and Technology (MIET) Jammu",
+    "district": "Jammu",
+    "main_city": "Jammu",
+    "type": "Private",
+    "courses_available": ["CSE", "ECE", "ME", "EE", "Civil", "IT"],
+    "category": "Engineering",
+    "cd_score": "NA",
+    "course_fees": "₹4,36,000 (total for B.Tech) ≈ ₹1,09,000 / year",
+    "placement": {
+      "average_package": "₹4.2 LPA",
+      "highest_package": "₹12.45 LPA",
+      "placement_percent": "≈ 70-80 %"
+    },
+    "user_reviews": "3.7/5",
+    "ranking": "Top in J&K region (AICTE/State ranking)",
+    "cutoff_category_wise": {
+      "general": 85,
+      "obc": 80,
+      "sc": 72,
+      "st": 68
+    }
+  },
+  {
+    "name": "Government College of Engineering & Technology (GCET) Jammu",
+    "district": "Jammu",
+    "main_city": "Jammu",
+    "type": "Government",
+    "courses_available": ["CSE", "ECE", "ME", "EE", "Civil"],
+    "category": "Engineering",
+    "cd_score": "NA",
+    "course_fees": "₹1,29,000 – ₹1,72,000 total (varies by branch) per year",
+    "placement": {
+      "average_package": "₹5.0 LPA",
+      "highest_package": "₹7 LPA",
+      "placement_percent": "≈ ?%"
+    },
+    "user_reviews": "NA",
+    "ranking": "Important Govt Engineering College in J&K",
+    "cutoff_category_wise": {
+      "general": 85,
+      "obc": 80,
+      "sc": 72,
+      "st": 68
+    }
+  },
+  {
+    "name": "MBS College of Engineering & Technology, Jammu",
+    "district": "Jammu",
+    "main_city": "Jammu",
+    "type": "Private",
+    "courses_available": ["CSE", "ECE", "ME", "IT", "EE"],
+    "category": "Engineering",
+    "cd_score": "NA",
+    "course_fees": "₹1,39,000 – ₹1,84,000 total",
+    "placement": {
+      "average_package": "₹3.5-4.0 LPA",
+      "highest_package": "≈ ₹7-10 LPA",
+      "placement_percent": "Low to moderate"
+    },
+    "user_reviews": "3.3/5",
+    "ranking": "Regional private college",
+    "cutoff_category_wise": {
+      "general": 70,
+      "obc": 65,
+      "sc": 58,
+      "st": 55
+    }
+  }
+]
+
+
+

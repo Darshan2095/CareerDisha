@@ -1,0 +1,153 @@
+{
+    "schemes": [
+      {
+        "name": "PM Special Scholarship Scheme (PMSSS)",
+        "administered_by": "Ministry of Education, Government of India",
+        "category": "Scholarship",
+        "target_audience": "Students of J&K and Ladakh",
+        "location": "Jammu & Kashmir, Ladakh",
+        "eligibility": {
+          "domicile": "J&K or Ladakh",
+          "education": "Passed 12th exam",
+          "income": "Family income ≤ ₹8 lakh/year"
+        },
+        "benefits": {
+          "tuition_fee": "₹30,000–₹3,00,000/year",
+          "maintenance_allowance": "₹1,00,000/year",
+          "courses_covered": [
+            "General Degree",
+            "Engineering",
+            "Medical",
+            "Nursing",
+            "Pharmacy",
+            "Architecture",
+            "HMCT"
+          ]
+        },
+        "application_portal": "https://www.aicte-jk-scholarship-gov.in/",
+        "application_deadline": "31-10-2025"
+      },
+      {
+        "name": "Central Sector Scheme of Scholarships for College and University Students",
+        "administered_by": "Ministry of Education",
+        "category": "Scholarship",
+        "target_audience": "Meritorious college and university students",
+        "location": "India (J&K students eligible)",
+        "eligibility": "Meritorious students enrolled in undergraduate or postgraduate courses",
+        "benefits": {
+          "undergraduate": "₹12,000/year",
+          "postgraduate": "₹20,000/year"
+        },
+        "application_portal": "https://scholarships.gov.in/",
+        "application_deadline": "31-10-2025"
+      },
+      {
+        "name": "Post Matric Scholarship for SC/OBC/EBC/PC/DNT Students",
+        "administered_by": "Directorate of Social Welfare, Jammu",
+        "category": "Scholarship",
+        "target_audience": "SC/OBC/EBC/PC/DNT students of J&K",
+        "location": "Jammu & Kashmir",
+        "eligibility": {
+          "domicile": "J&K",
+          "category": "SC/OBC/EBC/PC/DNT",
+          "income": "≤ ₹1 lakh (OBC/EBC/PC), ≤ ₹2.5 lakh (SC/DNT)"
+        },
+        "benefits": "Tuition fee, maintenance allowance, compulsory non-refundable fees",
+        "application_portal": "https://scholarships.gov.in/",
+        "application_deadline": "31-10-2025"
+      },
+      {
+        "name": "Pre-Matric Scholarship for SC Students",
+        "administered_by": "Directorate of Social Welfare, Jammu",
+        "category": "Scholarship",
+        "target_audience": "SC students from 1st to 10th class",
+        "location": "Jammu & Kashmir",
+        "eligibility": {
+          "category": "SC students",
+          "education": "1st to 10th class"
+        },
+        "benefits": "Financial assistance for tuition, maintenance, and other educational expenses",
+        "income_criteria": "No income bar for parents",
+        "application_portal": "https://scholarships.gov.in/",
+        "application_deadline": "31-10-2025"
+      },
+      {
+        "name": "Pragati Scholarship Scheme for Girl Students",
+        "administered_by": "AICTE",
+        "category": "Scholarship",
+        "target_audience": "Girl students in technical degree/diploma",
+        "location": "India (J&K students eligible)",
+        "eligibility": {
+          "gender": "Female",
+          "course": "1st or 2nd year technical degree or diploma",
+          "income": "≤ ₹8 lakh/year"
+        },
+        "benefits": "₹50,000/year",
+        "application_portal": "https://scholarships.gov.in/",
+        "application_deadline": "31-10-2025"
+      },
+      {
+        "name": "Saksham Scholarship Scheme for Specially Abled Students",
+        "administered_by": "AICTE",
+        "category": "Scholarship",
+        "target_audience": "Specially abled students in technical education",
+        "location": "India (J&K students eligible)",
+        "eligibility": {
+          "disability": "≥40%",
+          "course": "1st or 2nd year technical degree/diploma",
+          "income": "≤ ₹8 lakh/year"
+        },
+        "benefits": "₹50,000/year",
+        "application_portal": "https://scholarships.gov.in/",
+        "application_deadline": "31-10-2025"
+      },
+      {
+        "name": "Swanath Scholarship Scheme",
+        "administered_by": "AICTE",
+        "category": "Scholarship",
+        "target_audience": "Orphans, COVID-19 orphans, wards of martyred Armed Forces",
+        "location": "India (J&K students eligible)",
+        "eligibility": {
+          "course": "Technical degree or diploma",
+          "income": "≤ ₹8 lakh/year"
+        },
+        "benefits": "₹50,000/year",
+        "application_portal": "https://scholarships.gov.in/",
+        "application_deadline": "31-10-2025"
+      },
+      {
+        "name": "University of Kashmir Merit Scholarships",
+        "administered_by": "University of Kashmir",
+        "category": "Merit Scholarship",
+        "target_audience": "Top merit students in each course",
+        "location": "University of Kashmir",
+        "eligibility": "Top 2 merit holders in each course",
+        "benefits": "Tuition and other fees for up to 12 months",
+        "application_portal": "https://en.wikipedia.org/wiki/University_of_Kashmir",
+        "application_deadline": "Varies by course"
+      },
+      {
+        "name": "University of Kashmir Research Scholarships",
+        "administered_by": "University of Kashmir",
+        "category": "Research Scholarship",
+        "target_audience": "PhD/M.Phil students",
+        "location": "University of Kashmir",
+        "eligibility": "Enrolled in PhD/M.Phil program",
+        "benefits": "₹10,000/month for up to 3 years",
+        "application_portal": "https://en.wikipedia.org/wiki/University_of_Kashmir",
+        "application_deadline": "Varies by program"
+      },
+      {
+        "name": "University of Kashmir Student Aid Fund",
+        "administered_by": "University of Kashmir",
+        "category": "Financial Assistance",
+        "target_audience": "Meritorious students from low-income groups",
+        "location": "University of Kashmir",
+        "eligibility": "Meritorious and/or orphan students",
+        "benefits": "Financial assistance for tuition and other fees",
+        "application_portal": "https://en.wikipedia.org/wiki/University_of_Kashmir",
+        "application_deadline": "Varies by program"
+      }
+    ]
+  }
+  

@@ -1,0 +1,328 @@
+{
+    "courses": [
+      {
+        "level": "Undergraduate",
+        "category": "Engineering & Technology",
+        "courses": [
+          {
+            "name": "B.Tech / B.E.",
+            "duration": "4 years",
+            "notes": "Includes specializations like CSE, ECE, Mechanical, Civil, IT, Electrical"
+          }
+        ]
+      },
+      {
+        "level": "Undergraduate",
+        "category": "Medical & Allied",
+        "courses": [
+          {
+            "name": "MBBS",
+            "duration": "5.5 years",
+            "notes": "Includes 1-year internship"
+          },
+          {
+            "name": "BDS",
+            "duration": "4 years + internship",
+            "notes": "Dental education"
+          },
+          {
+            "name": "B.Sc Nursing",
+            "duration": "4 years",
+            "notes": "Nursing degrees"
+          }
+        ]
+      },
+      {
+        "level": "Undergraduate",
+        "category": "Pharmacy",
+        "courses": [
+          {
+            "name": "B.Pharm",
+            "duration": "4 years",
+            "notes": "Pharmacy and drug research"
+          }
+        ]
+      },
+      {
+        "level": "Undergraduate",
+        "category": "Science",
+        "courses": [
+          {
+            "name": "B.Sc",
+            "duration": "3 years",
+            "notes": "Specializations: Physics, Chemistry, Biology, Mathematics, Computer Science"
+          }
+        ]
+      },
+      {
+        "level": "Undergraduate",
+        "category": "Arts / Humanities",
+        "courses": [
+          {
+            "name": "B.A.",
+            "duration": "3 years",
+            "notes": "Specializations: English, Political Science, History, Sociology, Psychology"
+          }
+        ]
+      },
+      {
+        "level": "Undergraduate",
+        "category": "Commerce",
+        "courses": [
+          {
+            "name": "B.Com",
+            "duration": "3 years",
+            "notes": "General, Accounting, Finance"
+          }
+        ]
+      },
+      {
+        "level": "Undergraduate",
+        "category": "Management / Business",
+        "courses": [
+          {
+            "name": "BBA",
+            "duration": "3 years",
+            "notes": "Business Administration, HR, Marketing"
+          }
+        ]
+      },
+      {
+        "level": "Undergraduate",
+        "category": "Hotel & Hospitality",
+        "courses": [
+          {
+            "name": "BHM / HMCT",
+            "duration": "3-4 years",
+            "notes": "Hotel Management & Catering Technology"
+          }
+        ]
+      },
+      {
+        "level": "Undergraduate",
+        "category": "Law",
+        "courses": [
+          {
+            "name": "BA LLB",
+            "duration": "5 years",
+            "notes": "Integrated undergraduate law course"
+          }
+        ]
+      },
+      {
+        "level": "Postgraduate",
+        "category": "Engineering & Technology",
+        "courses": [
+          {
+            "name": "M.Tech / M.E.",
+            "duration": "2 years",
+            "notes": "Specializations like AI, Data Science, VLSI, Structural"
+          }
+        ]
+      },
+      {
+        "level": "Postgraduate",
+        "category": "Medical & Allied",
+        "courses": [
+          {
+            "name": "MD / MS",
+            "duration": "3 years",
+            "notes": "Postgraduate specialization after MBBS"
+          },
+          {
+            "name": "M.Sc Nursing",
+            "duration": "2 years",
+            "notes": "Nursing specialization"
+          }
+        ]
+      },
+      {
+        "level": "Postgraduate",
+        "category": "Pharmacy",
+        "courses": [
+          {
+            "name": "M.Pharm",
+            "duration": "2 years",
+            "notes": "Advanced study in pharmaceutical sciences"
+          }
+        ]
+      },
+      {
+        "level": "Postgraduate",
+        "category": "Science",
+        "courses": [
+          {
+            "name": "M.Sc",
+            "duration": "2 years",
+            "notes": "Physics, Chemistry, Biology, Mathematics, Computer Science"
+          }
+        ]
+      },
+      {
+        "level": "Postgraduate",
+        "category": "Arts / Humanities",
+        "courses": [
+          {
+            "name": "M.A.",
+            "duration": "2 years",
+            "notes": "English, Political Science, History, Psychology"
+          }
+        ]
+      },
+      {
+        "level": "Postgraduate",
+        "category": "Commerce / Management",
+        "courses": [
+          {
+            "name": "M.Com / MBA",
+            "duration": "2 years",
+            "notes": "Finance, Marketing, HR, IT"
+          }
+        ]
+      },
+      {
+        "level": "Postgraduate",
+        "category": "Law",
+        "courses": [
+          {
+            "name": "LLM",
+            "duration": "1-2 years",
+            "notes": "Master of Laws"
+          }
+        ]
+      },
+      {
+        "level": "Diploma / Certificate",
+        "category": "Engineering / Technology",
+        "courses": [
+          {
+            "name": "Diploma in Engineering",
+            "duration": "3 years",
+            "notes": "Polytechnic courses in CSE, ECE, Mechanical, Civil"
+          }
+        ]
+      },
+      {
+        "level": "Diploma / Certificate",
+        "category": "Management",
+        "courses": [
+          {
+            "name": "Diploma in Management",
+            "duration": "6 months – 1 year",
+            "notes": "Short-term management courses"
+          }
+        ]
+      },
+      {
+        "level": "Diploma / Certificate",
+        "category": "Hospitality",
+        "courses": [
+          {
+            "name": "Diploma in Hotel Management",
+            "duration": "6 months – 1 year",
+            "notes": "Focused practical skills"
+          }
+        ]
+      },
+      {
+        "level": "Diploma / Certificate",
+        "category": "Skill Development",
+        "courses": [
+          {
+            "name": "Certificate Courses",
+            "duration": "3 – 12 months",
+            "notes": "Coding, Data Analysis, AI/ML, Languages, Soft Skills"
+          }
+        ]
+      },
+      {
+        "level": "Diploma / Certificate",
+        "category": "Vocational / Technical",
+        "courses": [
+          {
+            "name": "ITI / Vocational Courses",
+            "duration": "6 months – 2 years",
+            "notes": "Electrician, Fitter, Welder, Plumber, Mechanic"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "category": "Chartered Accountancy",
+        "courses": [
+          {
+            "name": "CA Course",
+            "duration": "3 – 5 years",
+            "notes": "Professional accounting course"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "category": "Company Secretary",
+        "courses": [
+          {
+            "name": "CS Course",
+            "duration": "3 – 4 years",
+            "notes": "Corporate law & secretarial practice"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "category": "Law",
+        "courses": [
+          {
+            "name": "CLAT / Integrated Law",
+            "duration": "5 years",
+            "notes": "Entrance-based law courses"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "category": "Architecture",
+        "courses": [
+          {
+            "name": "B.Arch / M.Arch",
+            "duration": "5 years / 2 years",
+            "notes": "Design & architecture"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "category": "Design & Fashion",
+        "courses": [
+          {
+            "name": "B.Des / M.Des",
+            "duration": "4 years / 2 years",
+            "notes": "Fashion, Graphic, Industrial Design"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "category": "Education",
+        "courses": [
+          {
+            "name": "B.Ed / M.Ed",
+            "duration": "2 years",
+            "notes": "Teaching & education courses"
+          }
+        ]
+      },
+      {
+        "level": "Professional",
+        "category": "Paramedical",
+        "courses": [
+          {
+            "name": "DMLT / BPT / BOT",
+            "duration": "3 – 4 years",
+            "notes": "Lab technology, physiotherapy, occupational therapy"
+          }
+        ]
+      }
+    ]
+  }
+  
