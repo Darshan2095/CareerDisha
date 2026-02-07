@@ -1,5 +1,5 @@
 "use client";
-
+import { X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { Filter, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -11,6 +11,7 @@ import Link from "next/link";
 import Cdcard from "@/components/cdcard";
 
 export default function CollegesPage() {
+    const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [typeFilter, setTypeFilter] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("");
@@ -163,9 +164,181 @@ export default function CollegesPage() {
                     <p className="text-lg md:text-xl opacity-90">Explore institutions, compare options, and make informed decisions.</p>
                 </div>
             </section>
+
+        <div className="md:hidden p-4">
+        <Button 
+          onClick={() => setIsFilterOpen(true)}
+          className="w-full flex items-center justify-center gap-2"
+        >
+          <Filter className="w-4 h-4" />
+          Show Filters
+        </Button>
+      </div>
+
     <div className="flex py-10 rounded-lg gap-4">
       {/* <Cdcard></Cdcard> */}
       {/* Main Content */}
+
+      {/* Mobile Filter Overlay */}
+        {isFilterOpen && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden">
+            <div className="bg-white h-full w-[85%] max-w-md float-right p-4 overflow-y-auto">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-lg font-semibold flex items-center gap-2">
+                  <Filter className="w-4 h-4" /> Filters
+                </h2>
+                <div className="flex items-center gap-2">
+                  <button className="text-blue-600 text-sm" onClick={resetFilters}>
+                    Reset
+                  </button>
+                  <Button 
+                    variant="ghost" 
+                    size="icon"
+                    onClick={() => setIsFilterOpen(false)}
+                  >
+                    <X className="w-4 h-4" />
+                  </Button>
+                </div>
+              </div>
+              {/* Filter Content - Copy the filter content from the desktop version */}
+              <ScrollArea className="h-[calc(100vh-100px)]">
+                <div className="space-y-4">
+            {/* College Type */}
+            <div>
+              <Label htmlFor="type">College Type</Label>
+              <select
+                id="type"
+                className="w-full border rounded p-2"
+                value={typeFilter}
+                onChange={(e) => setTypeFilter(e.target.value)}
+              >
+                <option value="">Any</option>
+                <option value="government">Government</option>
+                <option value="private">Private</option>
+                <option value="deemed">Deemed</option>
+                <option value="autonomous">Autonomous</option>
+              </select>
+            </div>
+
+            {/* Category */}
+            <div>
+              <Label htmlFor="category">Category</Label>
+              <select
+                id="category"
+                className="w-full border rounded p-2"
+                value={categoryFilter}
+                onChange={(e) => setCategoryFilter(e.target.value)}
+              >
+                <option value="">Any</option>
+                <option value="degree">Degree</option>
+                <option value="engineering">Engineering</option>
+                <option value="medical">Medical</option>
+                <option value="arts">Arts</option>
+                <option value="management">Management</option>
+              </select>
+            </div>
+
+            {/* Location */}
+            <div>
+              <Label>Location</Label>
+              <div className="grid grid-cols-1 gap-2 mt-1">
+                <Input placeholder="State" value={stateFilter} onChange={(e) => setStateFilter(e.target.value)} />
+                <Input placeholder="District" value={districtFilter} onChange={(e) => setDistrictFilter(e.target.value)} />
+                <Input placeholder="City" value={cityFilter} onChange={(e) => setCityFilter(e.target.value)} />
+              </div>
+            </div>
+
+            {/* Course */}
+            <div>
+              <Label htmlFor="course">Course</Label>
+              <select
+                id="course"
+                className="w-full border rounded p-2"
+                value={courseFilter}
+                onChange={(e) => setCourseFilter(e.target.value)}
+              >
+                <option value="">Any</option>
+                <option value="engineering">Engineering</option>
+                <option value="medical">Medical</option>
+                <option value="mba">MBA</option>
+                <option value="arts">Arts</option>
+              </select>
+            </div>
+
+            {/* Fees */}
+            <div>
+              <Label htmlFor="fees">Fees</Label>
+              <select
+                id="fees"
+                className="w-full border rounded p-2"
+                value={feesFilter}
+                onChange={(e) => setFeesFilter(e.target.value)}
+              >
+                <option value="">Any</option>
+                <option value="lt50k">Below 50k</option>
+                <option value="50k-1l">50k–1L</option>
+                <option value="1l-2l">1L–2L</option>
+                <option value="gt2l">Above 2L</option>
+              </select>
+            </div>
+
+            {/* Placement */}
+            <div>
+              <Label>Placement</Label>
+              <div className="mt-1 space-y-1 text-sm">
+                <label className="flex items-center gap-2">
+                  <input type="checkbox" checked={placementAvgFilter} onChange={(e) => setPlacementAvgFilter(e.target.checked)} />
+                  Average &gt; 5 LPA
+                </label>
+                <label className="flex items-center gap-2">
+                  <input type="checkbox" checked={placementHighFilter} onChange={(e) => setPlacementHighFilter(e.target.checked)} />
+                  Highest &gt; 10 LPA
+                </label>
+              </div>
+            </div>
+
+            {/* Reviews */}
+            <div>
+              <Label htmlFor="reviews">Reviews</Label>
+              <select
+                id="reviews"
+                className="w-full border rounded p-2"
+                value={reviewsFilter}
+                onChange={(e) => setReviewsFilter(e.target.value)}
+              >
+                <option value="">Any</option>
+                <option value="4plus">4★ & above</option>
+                <option value="3plus">3★ & above</option>
+              </select>
+            </div>
+
+            {/* Ranking */}
+            <div>
+              <Label htmlFor="ranking">Ranking</Label>
+              <select
+                id="ranking"
+                className="w-full border rounded p-2"
+                value={rankingFilter}
+                onChange={(e) => setRankingFilter(e.target.value)}
+              >
+                <option value="">Any</option>
+                <option value="top10">Top 10</option>
+                <option value="top50">Top 50</option>
+                <option value="top100">Top 100</option>
+              </select>
+            </div>
+
+            <Button className="w-full mt-2" onClick={() => {}}>
+              Apply Filters
+            </Button>
+          </div>
+              </ScrollArea>
+            </div>
+          </div>
+        )}
+
+
+
       <div className="flex-1 p-6">
         {/* Search Bar */}
         <div className="flex justify-center mb-6 border-none">
@@ -203,7 +376,7 @@ export default function CollegesPage() {
       </div>
 
       {/* Right Filter Sidebar */}
-      <div className="w-72 rounded-lg  p-4 bg-white scrollbar-none sticky top-2 self-start max-h-[calc(105vh-5rem)] overflow-y-auto">
+       <div className="hidden md:block w-72 rounded-lg p-4 bg-white scrollbar-none sticky top-2 self-start max-h-[calc(105vh-5rem)] overflow-y-auto">
         <div className="flex items-center justify-between mb-2">
             <h2 className="text-lg font-semibold flex items-center gap-2">
               <Filter className="w-4 h-4" /> Filters
