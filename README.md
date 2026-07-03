@@ -32,12 +32,19 @@ Version Control: Git & GitHub
 🏗️ Project Architecture
 CareerDisha/
 │
+
 ├── components/       # Reusable UI components
+
 ├── pages/            # Next.js page routes
+
 ├── models/           # Mongoose schemas
+
 ├── api/              # Backend API endpoints
+
 ├── public/           # Static assets
+
 ├── styles/           # Global Tailwind & CSS styles
+
 └── utils/            # Helper functions and configurations
 
 ⚙️ Installation & Setup
